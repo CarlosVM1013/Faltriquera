@@ -160,6 +160,13 @@ body {
 
 /* Musica */
 
+#tituloMusica {
+	text-align: center;
+	font-family: "Gwendolyn";
+	font-size: 4em;
+	margin-bottom: 0;
+}
+
 #musica {
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -173,6 +180,7 @@ body {
 	padding: 0.6em 1em 1em 1em;
 	margin-top: 2em;
 	background-color: rgb(255, 255, 255);
+	width: 50%;
 }
 
 .song h4{
@@ -187,6 +195,70 @@ body {
 .songHeader a {
 	border-bottom: 0;
 	margin-left: 1em;
+}
+
+/* Buscador */
+
+#barra {
+	text-align: center;
+  }
+  
+  #barra input[type="text"] {
+	width: 25%;
+	border-radius: 10px;
+	padding: 10px 20px 10px 40px;
+	margin-bottom: 10px;
+	background-image: url("/assets/images/buscar.png");
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-top: 2em;
+  }
+
+/* Apuntes */
+
+#apuntes {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	justify-items: center;
+}
+
+.docs {
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 0.6em 1em 1em 1em;
+	margin: 2em 0 0 2em; 
+	background-color: rgb(255, 255, 255);
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5em;
+
+}
+
+.docs a {
+	border-bottom: 0;
+	margin-left: 1em;
+}
+
+.docs h4 {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+#visor {
+	display: none;
+	position: absolute;
+	width: 70%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 /* Arcana */
@@ -2514,7 +2586,7 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #699f76;
+			border-color: #000000;
 		}
 
 	input[type="tel"], select {

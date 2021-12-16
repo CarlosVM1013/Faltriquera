@@ -158,6 +158,39 @@ body {
 	margin-inline-end: 10em;
 }
 
+/* Musica */
+
+#musica {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	justify-items: center;
+}
+
+.song {
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 0.6em 1em 1em 1em;
+	margin-top: 2em;
+	background-color: rgb(255, 255, 255);
+}
+
+.song h4{
+	font-size: 1.2em;
+}
+
+.songHeader {
+	display: flex;
+	align-items: center;
+}
+
+.songHeader a {
+	border-bottom: 0;
+	margin-left: 1em;
+}
+
+/* Arcana */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -250,13 +283,13 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		color: #699f76;
+		color: #000000;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
 
 		a:hover {
-			color: #699f76;
+			color: #444444;
 			border-bottom-color: transparent;
 		}
 

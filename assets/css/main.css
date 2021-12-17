@@ -172,6 +172,7 @@ body {
 	grid-template-columns: 50% 50%;
 	grid-template-rows: auto;
 	justify-items: center;
+	align-items: center;
 }
 
 .song {
@@ -760,7 +761,46 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 960px;
+				width: 100%;
+
+			}
+
+			#footer .container {
+				width: 90%;
+				margin: 0 auto;
+			}
+
+			#nav ul {
+				margin-inline-start: 1em;
+				margin-inline-end: 1em;
+			}
+
+			#mainContent h3 {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#mainContent p {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#barra input[type="text"] {
+				width: 50%;
+			}
+
+			.song {
+				width: 80%;
+				height: max-content;
+			}
+
+			.song audio{
+				margin-top: 1em;
+				width: 100%;
+			}
+
+			.songHeader h4 {
+				margin: 0;
 			}
 
 		}
@@ -768,7 +808,48 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				width: 95%;
+				width: 100%;
+
+			}
+
+			#nav ul {
+				margin-inline-start: 1em;
+				margin-inline-end: 1em;
+			}
+
+			#mainContent h3 {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#mainContent p {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#barra input[type="text"] {
+				width: 50%;
+			}
+
+			.song {
+				width: 80%;
+				height: max-content;
+			}
+
+			.song audio{
+				margin-top: 1em;
+				width: 100%;
+			}
+
+			.songHeader h4 {
+				margin: 0;
+			}
+
+			#apuntes {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-template-rows: auto;
+				justify-items: center;
 			}
 
 		}
@@ -776,23 +857,166 @@ input, select, textarea {
 		@media screen and (max-width: 840px) {
 
 			.container {
-				width: 95%;
+				width: 100%;
+
+			}
+
+			#nav ul {
+				margin-inline-start: 1em;
+				margin-inline-end: 1em;
+			}
+
+			#mainContent h3 {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#mainContent p {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#barra input[type="text"] {
+				width: 50%;
+			}
+
+			.song {
+				width: 80%;
+				height: max-content;
+			}
+
+			.song audio{
+				margin-top: 1em;
+				width: 100%;
+			}
+
+			.songHeader h4 {
+				margin: 0;
+			}
+
+			#apuntes {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-template-rows: auto;
+				justify-items: center;
 			}
 
 		}
+
 
 		@media screen and (max-width: 736px) {
 
 			.container {
-				width: 90%;
+				width: 100%;
+
+			}
+
+			#banner {
+				height: 10em !important;
+			}
+
+			#banner p {
+				height: fit-content;
+				font-size: 3em;
+			}
+
+			#nav ul {
+				margin-inline-start: 1em;
+				margin-inline-end: 1em;
+			}
+
+			#mainContent h3 {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#mainContent p {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#barra input[type="text"] {
+				width: 50%;
+			}
+
+			.song {
+				width: 80%;
+				height: max-content;
+			}
+
+			.song audio{
+				margin-top: 1em;
+				width: 100%;
+			}
+
+			.songHeader h4 {
+				margin: 0;
+			}
+
+			#apuntes {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: auto;
+				justify-items: center;
 			}
 
 		}
+
 
 		@media screen and (max-width: 480px) {
 
 			.container {
 				width: 100%;
+
+			}
+
+			#banner {
+				height: 10em !important;
+			}
+
+			#banner p {
+				height: fit-content;
+				font-size: 3em;
+			}
+
+			#nav ul {
+				margin-inline-start: 1em;
+				margin-inline-end: 1em;
+			}
+
+			#mainContent h3 {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#mainContent p {
+				margin-inline-start: 2em;
+				margin-inline-end: 2em;
+			}
+
+			#barra input[type="text"] {
+				width: 50%;
+			}
+
+			.song {
+				width: 80%;
+				height: max-content;
+			}
+
+			.song audio{
+				margin-top: 1em;
+				width: 100%;
+			}
+
+			.songHeader h4 {
+				margin: 0;
+			}
+
+			#apuntes {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: auto;
+				justify-items: center;
 			}
 
 		}
@@ -3768,7 +3992,7 @@ input, select, textarea {
 
 		/* Banner */
 			#banner {
-				height: 18em;
+				height: 10em;
 			}
 
 			.pagina_error {

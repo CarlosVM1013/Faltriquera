@@ -1,6 +1,5 @@
 function mostrar(test) {
     let ruta = $(test).next().attr('href');
-    console.log(ruta);
     $("#visor").attr('src', ruta)
     $("#visor").css("display", "initial");
     event.stopPropagation();

@@ -304,6 +304,11 @@ video {
 	background-color: #75d4fa;
 }
 
+.videosButtons button.disabled {
+	background-color: lightgrey;
+	cursor: not-allowed;
+}
+
 #popupVideos {
 	display: none;
 	position: absolute;

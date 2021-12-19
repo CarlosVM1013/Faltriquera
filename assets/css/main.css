@@ -1096,16 +1096,24 @@ input, select, textarea {
 
 			#apuntes {
 				display: grid;
-				grid-template-columns: 1fr 1fr;
+				grid-template-columns: 1fr;
 				grid-template-rows: auto;
 				justify-items: center;
 			}
 
 			#videos {
 				display: grid;
-				grid-template-columns: 1fr 1fr;
+				grid-template-columns: 1fr;
 				grid-template-rows: auto;
 				justify-items: center;
+			}
+
+			#musica {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: auto;
+				justify-items: center;
+				align-items: center;
 			}
 
 		}

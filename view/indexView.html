@@ -18,7 +18,6 @@
             <li><a href="/view/musica.html">Música</a></li>
             <li><a href="/view/apuntes.html">Apuntes</a></li>
             <li><a href="/view/indexView.html">Home</a></li>
-            <li><a href="/view/jotas.html">Jotas</a></li>
             <li><a href="/controller/videosController.php">Videos</a></li>
         </ul>
     </nav>

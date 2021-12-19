@@ -15,7 +15,6 @@ function getVideos($dir) {
         array_push($videos, $dir.$video);
     }
 
-    echo var_dump($videos);
     return $videos;
 }
 

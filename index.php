@@ -1,4 +1,4 @@
 <?php
-include 'view/indexView.html';
+include 'view/indexView.php';
 
 ?>

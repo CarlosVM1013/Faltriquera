@@ -10,20 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php
+<?php
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }
-    if (!empty($_SESSION['usuario'])) {
-        $inactividad = 3600;
-        if(!empty($_SESSION["timeout"])){
-            $sessionTTL = time() - $_SESSION["timeout"];
-            if($sessionTTL > $inactividad){
-                session_destroy();
-                header("Location: /index.php");
-            }
+    $inactividad = 3600;
+    if(!empty($_SESSION["timeout"])){
+        $sessionTTL = time() - $_SESSION["timeout"];
+        if($sessionTTL > $inactividad){
+            session_destroy();
+            header("Location: /index.php");
         }
-    ?>
+    } 
+?>
     <div id="banner">
         <p id="tituloBanner">La Faltriquera Elda</p>
     </div>
@@ -35,46 +34,41 @@
             <li><a href="/controller/videosController.php">Videos</a></li>
         </ul>
     </nav>
-    <h2 id="tituloMusica">Vídeos</h2>
-    <div id="barra">
-        <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
-    </div>
-    <div id="popupVideos">
-        <h2 id="tituloJota"></h2>
-        <h3 id="tipoVideo"></h3>
-        <div class="videoDiv">
-            <h4 class="tituloVideo">JotaVillena_Parte1</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Parte1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="videoDiv">
-            <h4 class="tituloVideo">JotaVillena_Parte2</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Parte2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="videoDiv">
-            <h4 class="tituloVideo">JotaVillena_Castañuelas</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Castañuelas.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-    </div>
-    <div id="videos">
-        <?php
+    <?php
+    if(!empty($_SESSION['usuario'])) {
 
-        if (!empty($videos)) {
-            foreach ($videos as $video) {
-                echo $video;
-            }
-        }
-
-        ?>
+    ?>
+    <div id="mainContent">
+        <h2>¿Quiénes somos?</h2>
+        <h3>GRUPO DE DANZAS DE LA MAYORDOMIA DE SAN ANTON "LA FALTRIQUERA</h3>
+        <p>En 1998, el grupo sale a las calles de Elda junto a la Mayordomía de San Antón en la celebración de la Media Fiesta de Moros y Cristianos recuperando así las danzas de Elda. A partir de 1999 queda consolidado el grupo con el nombre de “La Faltriquera” bajo la tutela de la Mayordomía de San Antón.</p> 
+        <p>Desde su inicio han sido muchas y diversas sus actuaciones (Fiestas Mayores, Pregón de Moros y Cristianos, presentaciones en fallas, visitas al geriátrico “El Catí”, actuaciones en otros municipios como Torrent, Festival Folclórico de Sax, etc.), pero su papel determinante lo desempeñan en los actos de la Media Fiesta de Moros y Cristianos de Elda, celebrada en honor a San Antón, así como en el día de la festividad de nuestro  santo, el 17 de enero.</p>
+        <p>En la actualidad son unas treinta personas las que componen “La Faltriquera”, cuyas actuaciones siempre están acompañadas por la colla de la Mayordomía. Además de los ensayos mensuales que realiza el grupo, las danzas están siendo difundidas gracias a la inestimable colaboración de la profesora del C.P. Antonio Machado, Gloria, que de forma desinteresada realiza como actividad extraescolar ensayos de las danzas entre los alumn@s de ese colegio. Podríamos decir que en este momento es la cantera del grupo de danzas, porque estos alumnos pasan a formar parte del grupo de la Mayordomía una vez están preparados para bailar en público. Dirigidas por Mari Reme Molina, siguen ahondando en las tradiciones eldenses y el folclore de la comunidad incorporando a su repertorio nuevas danzas de localidades cercanas como Sax, Salinas, Pinoso, o Beneixama.</p>
     </div>
+
+    <?php }
+    else {
+    ?>
+
+    <div id="loginSignin">
+        <div id="login">
+            <form id="loginForm" action="/controller/loginController.php" method="POST">
+                <label for="loginNombre">Usuario: </label>
+                <input type="text" id="loginNombre" name="loginNombre" required>
+                <?php if (!empty($usuarioError)) {echo '<p class="error">'.$usuarioError.'</p>';}?>
+
+                <label for="loginContrasena">Contraseña: </label>
+                <input type="password" id="loginContrasena" name="loginContrasena" required>
+                <?php if (!empty($contrasenaError)) {echo '<p class="error">'.$contrasenaError.'</p>';}?>
+                
+                <input type="submit" id="loginButton" value="Iniciar Sesión">
+            </form>
+        </div>
+    </div>
+
+    <?php }
+    ?>
+
     <div id="footer">
         <div class="container">
             <div class="row">
@@ -126,19 +120,7 @@
                     <li>&copy; La Faltriquera Elda. All rights reserved</li><li>Design: Carlos Vicente Mellinas</li>
                 </ul>
             </div>
+
     </div>
-    <?php 
-    } else {
-
-    ?>
-
-    <div>
-        <h2 class="error">Tienes que iniciar sesion para acceder</h2>
-        <a href="/index.php">Vuelta a la pagina principal</a>
-    </div>
-
-    <?php
-
-    } ?>
-    <script type="text/javascript" src="/js/videos.js"></script>
 </body>
+</html>

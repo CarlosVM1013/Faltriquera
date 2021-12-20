@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php
+<?php
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }
@@ -35,46 +35,84 @@
             <li><a href="/controller/videosController.php">Videos</a></li>
         </ul>
     </nav>
-    <h2 id="tituloMusica">Vídeos</h2>
+    <h2 id="tituloMusica">Apuntes</h2>
     <div id="barra">
-        <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
+        <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier documento...">   
     </div>
-    <div id="popupVideos">
-        <h2 id="tituloJota"></h2>
-        <h3 id="tipoVideo"></h3>
-        <div class="videoDiv">
-            <h4 class="tituloVideo">JotaVillena_Parte1</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Parte1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+    <iframe src="" id="visor"></iframe>
+    <div id="apuntes">
+        <div class="docs">
+            <h4>Jota de San Antón</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota San Anton.pdf" download="Jota_San_Anton.pdf"><i class="fas fa-download"></i></a>
         </div>
-        <div class="videoDiv">
-            <h4 class="tituloVideo">JotaVillena_Parte2</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Parte2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <div class="docs">
+            <h4>Jota de Sax</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota Sax.pdf" download="Jota_Sax.pdf"><i class="fas fa-download"></i></a> 
         </div>
-        <div class="videoDiv">
-            <h4 class="tituloVideo">JotaVillena_Castañuelas</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Castañuelas.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <div class="docs">
+            <h4>Jota de Salinas</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota Salinas.pdf" download="Jota_Salinas.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Ball de Tres (Pinoso)</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Ball de Tres (Pinoso).pdf" download="Ball_de_Tres.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Danza de Beneixama</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Danza Beneixama.pdf" download="Danza_Benexiama.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Jota de Banyeres</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota de Banyeres.pdf" download="Jota_Banyeres.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Jota de Monovar</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota de Monovar.pdf" download="Jota_Monovar.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Jota de Alguenya</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota Alguenya.pdf" download="Jota_Alguenya.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>L'u d' Alcoi</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/L'u d'Alcoi.pdf" download="Lu_Alcoi.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Jota de Villena</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota de Villena.pdf" download="Jota_Villena.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Fandango de Tres Xativa</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Fandango de Tres Xativa.pdf" download="Fandango_Xativa.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Jota de Novelda</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota Novelda.pdf" download="Jota_Novelda.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Jota del Postiguet</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota del Postiguet.pdf" download="Jota_Postiguet.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Bolero Pla de Xàtiva</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Bolero Pla de Xativa.pdf" download="Bolero_Pla_Xativa.pdf"><i class="fas fa-download"></i></a> 
         </div>
     </div>
-    <div id="videos">
-        <?php
 
-        if (!empty($videos)) {
-            foreach ($videos as $video) {
-                echo $video;
-            }
-        }
-
-        ?>
-    </div>
     <div id="footer">
         <div class="container">
             <div class="row">
@@ -126,8 +164,7 @@
                     <li>&copy; La Faltriquera Elda. All rights reserved</li><li>Design: Carlos Vicente Mellinas</li>
                 </ul>
             </div>
-    </div>
-    <?php 
+            <?php 
     } else {
 
     ?>
@@ -140,5 +177,6 @@
     <?php
 
     } ?>
-    <script type="text/javascript" src="/js/videos.js"></script>
+            <script type="text/javascript" src="/js/apuntes.js"></script>
+
 </body>

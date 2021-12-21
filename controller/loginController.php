@@ -1,5 +1,14 @@
 <?php
 
+function conexion() {
+    $direccion = "172.18.0.2";
+    $usuario = "root";
+    $contrasenya = "P@k1To01";
+    $bd = "faltriquera";    
+    $conexion=new mysqli($direccion, $usuario, $contrasenya, $bd);
+    return $conexion;
+}
+
 function limpiarDatos($data) {
     $data = trim($data);
     $data = stripslashes($data);
@@ -8,24 +17,31 @@ function limpiarDatos($data) {
 }
 
 function comprobarCredenciales() {
+    $link = conexion();
     $usuario = limpiarDatos($_POST['loginNombre']);
     $contrasena = limpiarDatos($_POST['loginContrasena']);
     $valido = true;
 
-    $usuario1 = '';
-    $pass1 = '';
-
-    if ($usuario !== $usuario1) {
+    $query = mysqli_query($link, 'SELECT * FROM users WHERE usuario="'.$usuario.'" ');
+    $results = mysqli_num_rows($query);
+    if ($results === 0) {
+        mysqli_close($link);
         $valido = false;
         $usuarioError = 'El usuario no existe';
         include '../view/indexView.php';
     }
+    mysqli_free_result($query);
 
-    if ($pass1 !== $contrasena) {
+    $query = mysqli_query($link, 'SELECT * FROM users WHERE usuario="'.$usuario.'" ');
+    $results = mysqli_fetch_array($query);
+    if ($results['password'] !== $contrasena) {
+        mysqli_close($link);
         $valido = false;
         $contrasenaError = 'La contraseña no es correcta';
         include '../view/indexView.php';
     }
+
+    mysqli_close($link);
 
     if ($valido) {
         iniciarSesion($usuario, $results['cod']);

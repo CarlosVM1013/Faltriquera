@@ -34,6 +34,7 @@ function comprobarCredenciales() {
 
     $query = mysqli_query($link, 'SELECT * FROM users WHERE usuario="'.$usuario.'" ');
     $results = mysqli_fetch_array($query);
+    echo $results['password'];
     if ($results['password'] !== $contrasena) {
         mysqli_close($link);
         $valido = false;

@@ -1,7 +1,7 @@
 <?php
 
 function conexion() {
-    $direccion = "172.18.0.2";
+    $direccion = "172.18.0.3";
     $usuario = "root";
     $contrasenya = "P@k1To01";
     $bd = "faltriquera";    

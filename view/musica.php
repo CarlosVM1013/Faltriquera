@@ -160,9 +160,9 @@
         <div class="song">
             <div class="songHeader">
                 <h4>11. Fandango de Tres Xativa</h4>
-                <a href="/musica/11. FANDANGO DE TRES XÀTIVA.mp3" download="11.FANDANGO_TRES_XATIVA.mp3"><i class="fas fa-download"></i></a> 
+                <a href="/musica/11. FANDANGO DE TRES XÀTIVA (Castañuelas).mp3" download="11.FANDANGO_TRES_XATIVA.mp3"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/11. FANDANGO DE TRES XÀTIVA.mp3" controls>	
+            <audio src="/musica/11. FANDANGO DE TRES XÀTIVA (Castañuelas).mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>
@@ -282,17 +282,15 @@
                 <section class="col-3 col-6-narrower col-12-mobilep">
                     <h3>MENÚ</h3>
                     <ul class="links">
-                        <li><a href="#">Musica</a></li>
-                        <li><a href="#">Apuntes</a></li>
-                        <li><a href="#">Jotas</a></li>
-                        <li><a href="#">Videos Bailes</a></li>
-                        <li><a href="#">Videos Tutoriales</a></li>
+                        <li><a href="/view/musica.php">Música</a></li>
+                        <li><a href="/view/apuntes.php">Apuntes</a></li>
+                        <li><a href="/view/indexView.php">Inicio</a></li>
+                        <li><a href="/controller/videosController.php">Videos</a></li>
                     </ul>
                 </section>
                 <section class="col-3 col-6-narrower col-12-mobilep">
                     <h3>CONTACTO</h3>
                     <ul class="links">
-                        <li><i class="fas fa-phone"></i><a href="tel:+34656698565">+34 644 321 513</a></li>
                         <li><i class="fas fa-envelope"></i><a href="mailto:faltriqueras@gmail.com">faltriqueras@gmail.com</a></li>
                         <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/lafaltriquera.elda/" >La Faltriquera Elda</a></li>
                     </ul>

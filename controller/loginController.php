@@ -1,6 +1,8 @@
 <?php
 
 function conexion() {
+    //172.18.0.3
+    //172.18.0.1
     $direccion = "172.18.0.2";
     $usuario = "root";
     $contrasenya = "P@k1To01";

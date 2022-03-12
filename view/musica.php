@@ -196,9 +196,9 @@
         <div class="song">
             <div class="songHeader">
                 <h4>12. Bolero Pla de Xativa 2</h4>
-                <a href="/musica/12. BOLERO PLA DE XÀTIVA 2.mp3" download="12.BOLERO_PLA_XATIVA2"><i class="fas fa-download"></i></a> 
+                <a href="/musica/12. BOLERO PLA DE XATIVA 2.mp3" download="12.BOLERO_PLA_XATIVA2"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/12. BOLERO PLA DE XÀTIVA 2.mp3" controls>	
+            <audio src="/musica/12. BOLERO PLA DE XATIVA 2.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>

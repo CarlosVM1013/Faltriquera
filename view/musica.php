@@ -115,7 +115,16 @@
         <div class="song">
             <div class="songHeader">
                 <h4>08. Jota de la Alguenya</h4>
-                <a href="/musica/08. JOTA DE LA ALGUENYA 2.0.mp3" download="08.JOTA_ALGUENYA.mp3"><i class="fas fa-download"></i></a> 
+                <a href="/musica/08. JOTA DE LA ALGUENYA.mp3" download="08.JOTA_ALGUENYA.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/08. JOTA DE LA ALGUENYA.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>08. Jota de la Alguenya 2.0</h4>
+                <a href="/musica/08. JOTA DE LA ALGUENYA 2.0.mp3" download="08.JOTA_ALGUENYA2.mp3"><i class="fas fa-download"></i></a> 
             </div>
             <audio src="/musica/08. JOTA DE LA ALGUENYA 2.0.mp3" controls>	
                 <p>Fallback content goes here.</p>

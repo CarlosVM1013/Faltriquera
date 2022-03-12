@@ -111,6 +111,16 @@
             <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
             <a href="/apuntes/Bolero Pla de Xativa.pdf" download="Bolero_Pla_Xativa.pdf"><i class="fas fa-download"></i></a> 
         </div>
+        <div class="docs">
+            <h4>Jota de Xàtiva</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota de Xativa.pdf" download="Jota_Xativa.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Malaguenya de Barxeta</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Malaguenya de Barxeta.pdf" download="Malaguenya_Barxeta.pdf"><i class="fas fa-download"></i></a> 
+        </div>
     </div>
 
     <div id="footer">

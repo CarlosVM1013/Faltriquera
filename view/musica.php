@@ -159,6 +159,15 @@
         </div>
         <div class="song">
             <div class="songHeader">
+                <h4>10. Jota de Villena 2(Lenta)</h4>
+                <a href="/musica/10. JOTA DE VILLENA LENTA 2.mp3" download="10.VILLENA_LENTA2.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/10. JOTA DE VILLENA LENTA 2.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
                 <h4>10. Jota de Villena (Rapida)</h4>
                 <a href="/musica/10. JOTA DE VILLENA RAPIDA.mp3" download="10.VILLENA_RAPIDA.mp3"><i class="fas fa-download"></i></a> 
             </div>

@@ -121,6 +121,11 @@
             <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
             <a href="/apuntes/Malaguenya de Barxeta.pdf" download="Malaguenya_Barxeta.pdf"><i class="fas fa-download"></i></a> 
         </div>
+        <div class="docs">
+            <h4>Jota de Beniganim</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota de Beniganim.pdf" download="Jota_Beniganim.pdf"><i class="fas fa-download"></i></a> 
+        </div>
     </div>
 
     <div id="footer">

@@ -126,6 +126,26 @@
             <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
             <a href="/apuntes/Jota de Beniganim.pdf" download="Jota_Beniganim.pdf"><i class="fas fa-download"></i></a> 
         </div>
+        <div class="docs">
+            <h4>Bolero de Castellon</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Bolero de Castellon.pdf" download="Bolero_Castellon.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Malaguenya de Aspe</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Malaguenya de Aspe.pdf" download="Malaguenya_Aspe.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Fandango de Xixona</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Fandango de Xixona.pdf" download="Fandango_Xixona.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Jota de Aspe</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota de Aspe.pdf" download="Jota_Aspe.pdf"><i class="fas fa-download"></i></a> 
+        </div>
     </div>
 
     <div id="footer">

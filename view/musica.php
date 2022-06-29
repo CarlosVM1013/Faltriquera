@@ -285,28 +285,73 @@
         </div>
         <div class="song">
             <div class="songHeader">
-                <h4>35. La Villanera de Ibi</h4>
-                <a href="/musica/35. LA VILLANERA DE IBI.mp3" download="35.VILLANERA_IBI.mp3"><i class="fas fa-download"></i></a> 
+                <h4>21. Malagueña de Aspe</h4>
+                <a href="/musica/21. MALAGUENYA DE ASPE.mp3" download="21.MALAGUENYA_ASPE.mp3"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/35. LA VILLANERA DE IBI.mp3" controls>	
+            <audio src="/musica/21. MALAGUENYA DE ASPE.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>
         <div class="song">
             <div class="songHeader">
-                <h4>36. Mazurca dels Pascualos</h4>
-                <a href="/musica/36. MAZURCA DELS PASCUALOS.mp3" download="36.MAZURCA_DELS_PASCUALOS.mp3"><i class="fas fa-download"></i></a> 
+                <h4>22. Fandango de Xixona</h4>
+                <a href="/musica/22. FANDANGO DE XIXONA.mp3" download="22.FANDANGO_XIXONA.mp3"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/36. MAZURCA DELS PASCUALOS.mp3" controls>	
+            <audio src="/musica/22. FANDANGO DE XIXONA.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>
         <div class="song">
             <div class="songHeader">
-                <h4>37. La Danceta de Crevillent</h4>
-                <a href="/musica/37. LA DANCETA DE CREVILLENT.mp3" download="37.DANCETA_CREVILLENT"><i class="fas fa-download"></i></a> 
+                <h4>22. Fandango de Xixona 2</h4>
+                <a href="/musica/22. FANDANGO DE XIXONA 2.m4a" download="22.FANDANGO_XIXONA2.mp3"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/37. LA DANCETA DE CREVILLENT.mp3" controls>	
+            <audio src="/musica/22. FANDANGO DE XIXONA 2.m4a" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>23. Petenera de Xativa</h4>
+                <a href="/musica/23. PETENERA DE XATIVA.mp3" download="23.PETENERA_XATIVA.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/23. PETENERA DE XATIVA.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>23. Petenera de Xativa 2</h4>
+                <a href="/musica/23. PETENERA DE XATIVA 2.mp3" download="23.PETENERA_XATIVA2.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/23. PETENERA DE XATIVA 2.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>24. Jota Calle de la Cruz</h4>
+                <a href="/musica/24. JOTA CALLE DE LA CRUZ.mp3" download="24.JOTA_CALLE_CRUZ.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/24. JOTA CALLE DE LA CRUZ.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>24. Jota Calle de la Cruz 2</h4>
+                <a href="/musica/24. JOTA CALLE DE LA CRUZ 2.mp3" download="24.JOTA_CALLE_CRUZ2.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/24. JOTA CALLE DE LA CRUZ 2.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>31. Fandango de Tibi</h4>
+                <a href="/musica/31. SEGUIDILLES DE LA FOIA DE CASTALLA.mp3" download="31.SEGUIDILLES_FOIA_CASTALLA.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/31. SEGUIDILLES DE LA FOIA DE CASTALLA.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>
@@ -334,6 +379,33 @@
                 <a href="/musica/34. JOTA RODA DE CASTALLA.mp3" download="34.JOTA_RODA_CASTALLA.mp3"><i class="fas fa-download"></i></a> 
             </div>
             <audio src="/musica/34. JOTA RODA DE CASTALLA.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>35. La Villanera de Ibi</h4>
+                <a href="/musica/35. LA VILLANERA DE IBI.mp3" download="35.VILLANERA_IBI.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/35. LA VILLANERA DE IBI.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>36. Mazurca dels Pascualos</h4>
+                <a href="/musica/36. MAZURCA DELS PASCUALOS.mp3" download="36.MAZURCA_DELS_PASCUALOS.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/36. MAZURCA DELS PASCUALOS.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>37. La Danceta de Crevillent</h4>
+                <a href="/musica/37. LA DANCETA DE CREVILLENT.mp3" download="37.DANCETA_CREVILLENT"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/37. LA DANCETA DE CREVILLENT.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>

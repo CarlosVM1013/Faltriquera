@@ -304,9 +304,9 @@
         <div class="song">
             <div class="songHeader">
                 <h4>22. Fandango de Xixona 2</h4>
-                <a href="/musica/22. FANDANGO DE XIXONA 2.m4a" download="22.FANDANGO_XIXONA2.mp3"><i class="fas fa-download"></i></a> 
+                <a href="/musica/22. FANDANGO DE XIXONA 2.m4a" download="22.FANDANGO_XIXONA2.m4a"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/22. FANDANGO DE XIXONA 2.m4a" controls>	
+            <audio type="audio/x-m4a" src="/musica/22. FANDANGO DE XIXONA 2.m4a" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>

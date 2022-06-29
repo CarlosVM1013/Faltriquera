@@ -348,6 +348,78 @@
         </div>
         <div class="song">
             <div class="songHeader">
+                <h4>25. L'U de Biar</h4>
+                <a href="/musica/25. L'U DE BIAR.mp3" download="25.LU_BIAR.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/25. L'U DE BIAR.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>26. Jota del Castellut</h4>
+                <a href="/musica/26. JOTA DEL CASTELLUT.mp3" download="26.JOTA_CASTELLUT.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/26. JOTA DEL CASTELLUT.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>26. Jota del Castellut 2</h4>
+                <a href="/musica/26. JOTA DEL CASTELLUT 2.mp3" download="26.JOTA_CASTELLUT2.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/26. JOTA DEL CASTELLUT 2.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>27. Ball de Tres (Monforte Corta)</h4>
+                <a href="/musica/27. BALL DE TRES (MONFORTE CORTA).mp3" download="27.BALL_TRES_MONFORTE_CORTA.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/27. BALL DE TRES (MONFORTE CORTA).mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>27. Ball de Tres (Monforte Larga)</h4>
+                <a href="/musica/27. BALL DE TRES (MONFORTE LARGA).mp3" download="27.BALL_TRES_MONFORTE_LARGA.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/27. BALL DE TRES (MONFORTE LARGA).mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>28. Fandango de Verdegas</h4>
+                <a href="/musica/28. FANDANGO DE VERDEGAS.mp3" download="28.FANDANGO_VERDEGAS.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/28. FANDANGO DE VERDEGAS.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>29. Jota de Aspe</h4>
+                <a href="/musica/29. JOTA DE ASPE.mp3" download="29.JOTA_ASPE.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/29. JOTA DE ASPE.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>30. Malagueña de la Casa de los Pavos</h4>
+                <a href="/musica/30. MALAGUEÑA DE LA CASA DE LOS PAVOS.mp3" download="30.MALAGUENYA_CASA_PAVOS.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/30. MALAGUEÑA DE LA CASA DE LOS PAVOS.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
                 <h4>31. Fandango de Tibi</h4>
                 <a href="/musica/31. SEGUIDILLES DE LA FOIA DE CASTALLA.mp3" download="31.SEGUIDILLES_FOIA_CASTALLA.mp3"><i class="fas fa-download"></i></a> 
             </div>

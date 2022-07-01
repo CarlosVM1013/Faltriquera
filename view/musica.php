@@ -420,7 +420,7 @@
         </div>
         <div class="song">
             <div class="songHeader">
-                <h4>31. Fandango de Tibi</h4>
+                <h4>31. Seguidilles de la Foia de Castalla</h4>
                 <a href="/musica/31. SEGUIDILLES DE LA FOIA DE CASTALLA.mp3" download="31.SEGUIDILLES_FOIA_CASTALLA.mp3"><i class="fas fa-download"></i></a> 
             </div>
             <audio src="/musica/31. SEGUIDILLES DE LA FOIA DE CASTALLA.mp3" controls>	

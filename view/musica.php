@@ -268,16 +268,7 @@
         <div class="song">
             <div class="songHeader">
                 <h4>21. Malagueña de Aspe</h4>
-                <a href="/musica/21. MALAGUENYA DE ASPE.mp3" download="21.MALAGUENYA_ASPE.mp3"><i class="fas fa-download"></i></a> 
-            </div>
-            <audio src="/musica/21. MALAGUENYA DE ASPE.mp3" controls>	
-                <p>Fallback content goes here.</p>
-            </audio>
-        </div>
-        <div class="song">
-            <div class="songHeader">
-                <h4>21. Malagueña de Aspe 2</h4>
-                <a href="/musica/21. MALAGUENYA DE ASPE 2.mp3" download="21.MALAGUENYA_ASPE2.mp3"><i class="fas fa-download"></i></a> 
+                <a href="/musica/21. MALAGUENYA DE ASPE 2.mp3" download="21.MALAGUENYA_ASPE.mp3"><i class="fas fa-download"></i></a> 
             </div>
             <audio src="/musica/21. MALAGUENYA DE ASPE 2.mp3" controls>	
                 <p>Fallback content goes here.</p>
@@ -289,15 +280,6 @@
                 <a href="/musica/22. FANDANGO DE XIXONA.mp3" download="22.FANDANGO_XIXONA.mp3"><i class="fas fa-download"></i></a> 
             </div>
             <audio src="/musica/22. FANDANGO DE XIXONA.mp3" controls>	
-                <p>Fallback content goes here.</p>
-            </audio>
-        </div>
-        <div class="song">
-            <div class="songHeader">
-                <h4>22. Fandango de Xixona 2</h4>
-                <a href="/musica/22. FANDANGO DE XIXONA 2.m4a" download="22.FANDANGO_XIXONA2.m4a"><i class="fas fa-download"></i></a> 
-            </div>
-            <audio type="audio/x-m4a" src="/musica/22. FANDANGO DE XIXONA 2.m4a" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>

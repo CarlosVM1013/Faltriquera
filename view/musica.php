@@ -133,34 +133,16 @@
         <div class="song">
             <div class="songHeader">
                 <h4>09. L'u d'Alcoi (Bajos)</h4>
-                <a href="/musica/09. L_U D_ALCOI 2.0.mp3" download="09.LU_D_ALCOI_BAJOS.mp3"><i class="fas fa-download"></i></a> 
+                <a href="/musica/09. L'U D'ALCOI 2.0.mp3" download="09.LU_D_ALCOI.mp3"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/09. L_U D_ALCOI 2.0.mp3" controls>	
-                <p>Fallback content goes here.</p>
-            </audio>
-        </div>
-        <div class="song">
-            <div class="songHeader">
-                <h4>09. L'u d'Alcoi (Alto)</h4>
-                <a href="/musica/09. L_Ú D_ALCOI.mp3" download="09.LU_D_ALCOI_ALTO.mp3"><i class="fas fa-download"></i></a> 
-            </div>
-            <audio src="/musica/09. L_Ú D_ALCOI.mp3" controls>	
+            <audio src="/musica/09. L'U D'ALCOI 2.0.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>
         <div class="song">
             <div class="songHeader">
                 <h4>10. Jota de Villena (Lenta)</h4>
-                <a href="/musica/10. JOTA DE VILLENA LENTA.mp3" download="10.VILLENA_LENTA.mp3"><i class="fas fa-download"></i></a> 
-            </div>
-            <audio src="/musica/10. JOTA DE VILLENA LENTA.mp3" controls>	
-                <p>Fallback content goes here.</p>
-            </audio>
-        </div>
-        <div class="song">
-            <div class="songHeader">
-                <h4>10. Jota de Villena 2(Lenta)</h4>
-                <a href="/musica/10. JOTA DE VILLENA LENTA 2.mp3" download="10.VILLENA_LENTA2.mp3"><i class="fas fa-download"></i></a> 
+                <a href="/musica/10. JOTA DE VILLENA LENTA 2.mp3" download="10.VILLENA_LENTA.mp3"><i class="fas fa-download"></i></a> 
             </div>
             <audio src="/musica/10. JOTA DE VILLENA LENTA 2.mp3" controls>	
                 <p>Fallback content goes here.</p>
@@ -340,9 +322,9 @@
         <div class="song">
             <div class="songHeader">
                 <h4>25. L'U de Biar</h4>
-                <a href="/musica/25. L'U DE BIAR.mp3" download="25.LU_BIAR.mp3"><i class="fas fa-download"></i></a> 
+                <a href="/musica/25. L_U DE BIAR.mp3" download="25.LU_BIAR.mp3"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/25. L'U DE BIAR.mp3" controls>	
+            <audio src="/musica/25. L_U DE BIAR.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>
@@ -645,7 +627,7 @@
         </div>
         <div class="song">
             <div class="songHeader">
-                <h4>58/. Mazurca dels Pascualos</h4>
+                <h4>58. Mazurca dels Pascualos</h4>
                 <a href="/musica/58. MAZURCA DELS PASCUALOS.mp3" download="5/8.MAZURCA_DELS_PASCUALOS.mp3"><i class="fas fa-download"></i></a> 
             </div>
             <audio src="/musica/58. MAZURCA DELS PASCUALOS.mp3" controls>	

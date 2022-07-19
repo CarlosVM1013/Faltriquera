@@ -33,4 +33,7 @@ function showBaile(button, bailes) {
 
 $(document).on('click','body *',function(){
     $("#popupVideos").css("display", "none");
+    $("video").pause();
+
+    }
 });

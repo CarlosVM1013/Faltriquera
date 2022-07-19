@@ -35,5 +35,4 @@ $(document).on('click','body *',function(){
     $("#popupVideos").css("display", "none");
     $("video").pause();
 
-    }
 });

@@ -33,6 +33,10 @@ function showBaile(button, bailes) {
 
 $(document).on('click','body *',function(){
     $("#popupVideos").css("display", "none");
-    $("#popupVideos video").get(0).pause();
+    for (let i = 0; i < $("#popupVideos video").length; i++) {
+        $("#popupVideos video").get(i).pause();
+    }
+    
+
 
 });

@@ -31,6 +31,21 @@ function showBaile(button, bailes) {
 
 }
 
+function buscar() {
+    let nombreVideo = $("#buscador").val().toLowerCase();
+    $("#videos .video h4").each(function () {
+      if (nombreVideo != "") {
+        if ($(this).text().toLowerCase().includes(nombreVideo)) {
+          $(this).parent().css("display", "flex");
+        } else {
+          $(this).parent().css("display", "none");
+        }
+      } else {
+        $("#videos .video").css("display", "flex");
+      }
+    });
+  }
+
 $(document).on('click','body *',function(){
     $("#popupVideos").css("display", "none");
     for (let i = 0; i < $("#popupVideos video").length; i++) {

@@ -36,7 +36,5 @@ $(document).on('click','body *',function(){
     for (let i = 0; i < $("#popupVideos video").length; i++) {
         $("#popupVideos video").get(i).pause();
     }
-    
-
 
 });

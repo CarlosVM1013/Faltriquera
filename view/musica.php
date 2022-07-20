@@ -643,6 +643,15 @@
                 <p>Fallback content goes here.</p>
             </audio>
         </div>
+        <div class="song">
+            <div class="songHeader">
+                <h4>62. Bolero de Carlet</h4>
+                <a href="/musica/62. BOLERO DE CARLET.mp3" download="62.BOLERO_CARLET.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/62. BOLERO DE CARLET.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
     </div>
 
     <div id="footer">

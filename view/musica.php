@@ -312,6 +312,15 @@
         </div>
         <div class="song">
             <div class="songHeader">
+                <h4>25. L'U de Biar 2</h4>
+                <a href="/musica/25. L'U DE BIAR 2.mp3" download="25.LU_BIAR2.mp3"><i class="fas fa-download"></i></a> 
+            </div>
+            <audio src="/musica/25. L'U DE BIAR 2.mp3" controls>	
+                <p>Fallback content goes here.</p>
+            </audio>
+        </div>
+        <div class="song">
+            <div class="songHeader">
                 <h4>26. Jota del Castellut</h4>
                 <a href="/musica/26. JOTA DEL CASTELLUT.mp3" download="26.JOTA_CASTELLUT.mp3"><i class="fas fa-download"></i></a> 
             </div>
@@ -537,10 +546,10 @@
         </div>
         <div class="song">
             <div class="songHeader">
-                <h4>50. Ball de Tres Monover</h4>
-                <a href="/musica/50. BALL DE TRES DE MONOVER.mp3" download="50.BALL_TRES_MONOVER"><i class="fas fa-download"></i></a> 
+                <h4>50. Bolero de Carlet</h4>
+                <a href="/musica/50. BOLERO DE CARLET.mp3" download="50.BOLERO_CARLET.mp3"><i class="fas fa-download"></i></a> 
             </div>
-            <audio src="/musica/50. BALL DE TRES DE MONOVER.mp3" controls>	
+            <audio src="/musica/50. BOLERO DE CARLET.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>
@@ -640,15 +649,6 @@
                 <a href="/musica/61. JOTA RODA DE CASTALLA.mp3" download="61.JOTA_RODA_CASTALLA.mp3"><i class="fas fa-download"></i></a> 
             </div>
             <audio src="/musica/61. JOTA RODA DE CASTALLA.mp3" controls>	
-                <p>Fallback content goes here.</p>
-            </audio>
-        </div>
-        <div class="song">
-            <div class="songHeader">
-                <h4>62. Bolero de Carlet</h4>
-                <a href="/musica/62. BOLERO DE CARLET.mp3" download="62.BOLERO_CARLET.mp3"><i class="fas fa-download"></i></a> 
-            </div>
-            <audio src="/musica/62. BOLERO DE CARLET.mp3" controls>	
                 <p>Fallback content goes here.</p>
             </audio>
         </div>

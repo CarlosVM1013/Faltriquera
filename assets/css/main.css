@@ -329,10 +329,14 @@ video {
 .videoAlboroque {
 	display: block;
 	text-align: center;
+	border: 1px solid black;
+	border-radius: 10%;
+	margin: 1em;
 }
 
 .videoAlboroqueDiv {
 	width: 100%;
+	margin-bottom: 2em;
 }
 
 .fechaVideo {

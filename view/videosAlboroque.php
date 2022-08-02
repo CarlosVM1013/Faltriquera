@@ -15,11 +15,12 @@
         <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
     </div>
     <div id="videos">
-        <h2 class="tituloJota2"></h2>
-        <div class="videoDiv">
-            <h4 class="tituloVideo">Fecha: 12-12-2012</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Parte1.mp4" type="video/mp4">
+        <h2 class="tituloJota2">XIX Certamen Nacional de Folclore</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 29-07-2018</h4>
+            <p>XIX Certamen nacional de Folklore " Valle de las Uvas". Actuación del Grupo de Danzas Delicias de Murcia, Grupo de Coros y Danzas de Torrejoncillo (Cáceres), del Grupo Alboroque.</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/XIXCertamenAspe.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>

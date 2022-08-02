@@ -326,6 +326,20 @@ video {
 	overflow: scroll;
 }
 
+.videoAlboroqueDiv {
+	width: 100%;
+}
+
+.fechaVideo {
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.videosAlboroque {
+	width: 90%;
+	height: auto;
+}
+
 /* Arcana */
 
 article, aside, details, figcaption, figure,

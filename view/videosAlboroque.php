@@ -15,12 +15,23 @@
         <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
     </div>
     <div class="videoAlboroque">
-        <h2 class="tituloJota2">Aguinaldos por el Grupo Alboroque 2018</h2>
+        <h2 class="tituloJota2">Festival de Folclore Teatro Wagner</h2>
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 02-02-2019</h4>
             <p>Festival de folclore celebrado en el Teatro Wagner y organizado por el grupo de bailes populares Grupo Alboroque</p>
             <video class="videosAlboroque" controls>
                 <source src="/videosAlboroque/FestivalFolcloreWagner2019.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Festa de la Reina Paixaró</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 06-01-2019</h4>
+            <p>Festa de la Reina Paixaró organizada por la Associació de Danses Lli i Llana en la tarde del 6 de enero</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/FestaReinaPaixaro2019.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -76,6 +87,28 @@
             <p>Danzas Populares interpretadas por el Grupo Alboroque de Aspe y Lli i Llana de Novelda el 1 de julio de 2018 en la Glorieta</p>
             <video class="videosAlboroque" controls>
                 <source src="/videosAlboroque/DanzasPopularesAspeNovelda.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Desfile de Tradiciones en Alicante</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 23-06-2018</h4>
+            <p>Desfile de tradiciones populares en las Hogueras de Alicante en el cual Aspe desfiló con las Damas de honor de la Virgen, el grupo Alboroque y la banda de música La Salvación</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/HoguerasAlboroque2018.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Ronda por las Plazas 2017</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 19-09-2017</h4>
+            <p>El Grupo Alboroque a recorrido las plazas de Aspe mostrando sus bailes populares</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/RondaPlazasAspe2017.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>

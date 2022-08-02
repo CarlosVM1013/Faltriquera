@@ -326,7 +326,7 @@ video {
 	overflow: scroll;
 }
 
-#videoAlboroque {
+.videoAlboroque {
 	display: block;
 	text-align: center;
 }
@@ -341,7 +341,7 @@ video {
 }
 
 .videosAlboroque {
-	width: 90%;
+	width: 50%;
 	height: auto;
 }
 

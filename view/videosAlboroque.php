@@ -14,13 +14,24 @@
     <div id="barra">
         <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
     </div>
-    <div id="videoAlboroque">
+    <div class="videoAlboroque">
         <h2 class="tituloJota2">XIX Certamen Nacional de Folclore</h2>
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 29-07-2018</h4>
             <p>XIX Certamen nacional de Folklore " Valle de las Uvas". Actuación del Grupo de Danzas Delicias de Murcia, Grupo de Coros y Danzas de Torrejoncillo (Cáceres), del Grupo Alboroque.</p>
             <video class="videosAlboroque" controls>
                 <source src="/videosAlboroque/XIXCertamenAspe.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Festival de Folclore Infantil</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 07-07-2018</h4>
+            <p>Festival de Folklore infantil de Aspe en el parque municipal La Coca con los bailes populares del grupo Alboroque de Aspe y el grupo de danzas de Pedreguer</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/FestivalFolcloreInfantilAspe.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>

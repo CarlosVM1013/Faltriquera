@@ -326,6 +326,11 @@ video {
 	overflow: scroll;
 }
 
+#videoAlboroque {
+	display: block;
+	text-align: center;
+}
+
 .videoAlboroqueDiv {
 	width: 100%;
 }

@@ -14,7 +14,7 @@
     <div id="barra">
         <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
     </div>
-    <div id="videos">
+    <div id="videoAlboroque">
         <h2 class="tituloJota2">XIX Certamen Nacional de Folclore</h2>
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 29-07-2018</h4>

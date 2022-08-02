@@ -36,5 +36,16 @@
             </video>
         </div>
     </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Danzas Populares</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 01-07-2018</h4>
+            <p>Danzas Populares interpretadas por el Grupo Alboroque de Aspe y Lli i Llana de Novelda el 1 de julio de 2018 en la Glorieta</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/DanzasPopularesAspeNovelda.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
     <script type="text/javascript" src="/js/videosAlboroque.js"></script>
 </body>

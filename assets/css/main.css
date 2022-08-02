@@ -1071,6 +1071,11 @@ input, select, textarea {
 				min-width: 0 !important;
 			}
 
+			.videosAlboroque {
+				width: 100%;
+				height: auto;
+			}
+
 		}
 
 

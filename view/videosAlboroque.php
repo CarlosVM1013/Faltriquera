@@ -15,6 +15,39 @@
         <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
     </div>
     <div class="videoAlboroque">
+        <h2 class="tituloJota2">Aguinaldos por el Grupo Alboroque 2018</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 02-02-2019</h4>
+            <p>Festival de folclore celebrado en el Teatro Wagner y organizado por el grupo de bailes populares Grupo Alboroque</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/FestivalFolcloreWagner2019.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Aguinaldos por el Grupo Alboroque 2018</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 30-12-2018</h4>
+            <p>Después de muchos años volvieron a sonar los aguinaldos por las calles y casas de nuestro pueblo de la mano del grupo Alboroque de Aspe</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/AguinaldoAlboroque2018.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Bailes de la Reina 2018</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 26-12-2018</h4>
+            <p>El grupo Alboroque rescata la tradición de los Bailes de la Reina Celebrados en la Plaza Mayor de Aspe</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/BailesReinaAspe2018.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="videoAlboroque">
         <h2 class="tituloJota2">XIX Certamen Nacional de Folclore</h2>
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 29-07-2018</h4>

@@ -15,6 +15,17 @@
         <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
     </div>
     <div class="videoAlboroque">
+        <h2 class="tituloJota2">XXI Certamen Nacional de Folclore</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 31-07-2022</h4>
+            <p>Celebración del XXI Certamen Valle de las Uvas celebrado en la Plaza Mayor con la actuación de la Peña La Menta de Casillas-Murcia y el Grupo Alboroque de Aspe.</p>
+            <video class="videosAlboroque" controls>
+                <source src="/videosAlboroque/XXICertamenAspe.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="videoAlboroque">
         <h2 class="tituloJota2">XX Certamen Nacional de Folclore</h2>
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 28-07-2019</h4>

@@ -96,9 +96,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 07-07-2018</h4>
             <p>Festival de Folklore infantil de Aspe en el parque municipal La Coca con los bailes populares del grupo Alboroque de Aspe y el grupo de danzas de Pedreguer</p>
-            <iframe
-            src="https://www.youtube.com/watch?v=QalBWXAQvok" 
-            </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QalBWXAQvok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">

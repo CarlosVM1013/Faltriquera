@@ -19,10 +19,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 31-07-2022</h4>
             <p>Celebración del XXI Certamen Valle de las Uvas celebrado en la Plaza Mayor con la actuación de la Peña La Menta de Casillas-Murcia y el Grupo Alboroque de Aspe.</p>
-            <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/XXICertamenAspe.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CCBkBboHocE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">
@@ -30,10 +27,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 28-07-2019</h4>
             <p>XX Certamen de Folklore Valle de las Uvas celebrado en la plaza Mayor.</p>
-            <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/XXCertamenAspe.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8h5IAPIY3a4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">
@@ -41,10 +35,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 02-02-2019</h4>
             <p>Festival de folclore celebrado en el Teatro Wagner y organizado por el grupo de bailes populares Grupo Alboroque</p>
-            <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/FestivalFolcloreWagner2019.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/F8T5IcArIs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">
@@ -52,10 +43,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 06-01-2019</h4>
             <p>Festa de la Reina Paixaró organizada por la Associació de Danses Lli i Llana en la tarde del 6 de enero</p>
-            <video class="videosAlboroque" controls>
-                <source src="https://youtu.be/AMeCu9cfwag" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AMeCu9cfwag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">
@@ -74,10 +62,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 26-12-2018</h4>
             <p>El grupo Alboroque rescata la tradición de los Bailes de la Reina Celebrados en la Plaza Mayor de Aspe</p>
-            <video class="videosAlboroque" controls>
-                <source src="https://youtu.be/98BoOedeT04" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/98BoOedeT04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">
@@ -85,10 +70,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 29-07-2018</h4>
             <p>XIX Certamen nacional de Folklore " Valle de las Uvas". Actuación del Grupo de Danzas Delicias de Murcia, Grupo de Coros y Danzas de Torrejoncillo (Cáceres), del Grupo Alboroque.</p>
-            <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/XIXCertamenAspe.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dYUh1AH_Rho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">
@@ -104,10 +86,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 01-07-2018</h4>
             <p>Danzas Populares interpretadas por el Grupo Alboroque de Aspe y Lli i Llana de Novelda el 1 de julio de 2018 en la Glorieta</p>
-            <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/DanzasPopularesAspeNovelda.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9Sb6nqzzJus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">
@@ -115,10 +94,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 23-06-2018</h4>
             <p>Desfile de tradiciones populares en las Hogueras de Alicante en el cual Aspe desfiló con las Damas de honor de la Virgen, el grupo Alboroque y la banda de música La Salvación</p>
-            <video class="videosAlboroque" controls>
-                <source src="https://youtu.be/aTIZOBzPBbY" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aTIZOBzPBbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">
@@ -126,10 +102,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 19-09-2017</h4>
             <p>El Grupo Alboroque a recorrido las plazas de Aspe mostrando sus bailes populares</p>
-            <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/RondaPlazasAspe2017.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9HjiQPMK34I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <script type="text/javascript" src="/js/videosAlboroque.js"></script>

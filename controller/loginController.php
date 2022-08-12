@@ -1,11 +1,9 @@
 <?php
 
 function conexion() {
-    //172.18.0.2
-    //172.18.0.1
-    $direccion = "172.18.0.3";
-    $usuario = "root";
-    $contrasenya = "P@k1To01";
+    $direccion = "127.0.0.1";
+    $usuario = "bitnami";
+    $contrasenya = "vIu5oSLpNMM7";
     $bd = "faltriquera";    
     $conexion=new mysqli($direccion, $usuario, $contrasenya, $bd);
     return $conexion;

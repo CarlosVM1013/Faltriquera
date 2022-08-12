@@ -53,7 +53,7 @@
             <h4 class="fechaVideo">Fecha: 06-01-2019</h4>
             <p>Festa de la Reina Paixaró organizada por la Associació de Danses Lli i Llana en la tarde del 6 de enero</p>
             <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/FestaReinaPaixaro2019.mp4" type="video/mp4">
+                <source src="https://youtu.be/AMeCu9cfwag" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -75,7 +75,7 @@
             <h4 class="fechaVideo">Fecha: 26-12-2018</h4>
             <p>El grupo Alboroque rescata la tradición de los Bailes de la Reina Celebrados en la Plaza Mayor de Aspe</p>
             <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/BailesReinaAspe2018.mp4" type="video/mp4">
+                <source src="https://youtu.be/98BoOedeT04" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -97,7 +97,7 @@
             <h4 class="fechaVideo">Fecha: 07-07-2018</h4>
             <p>Festival de Folklore infantil de Aspe en el parque municipal La Coca con los bailes populares del grupo Alboroque de Aspe y el grupo de danzas de Pedreguer</p>
             <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/FestivalFolcloreInfantilAspe.mp4" type="video/mp4">
+                <source src="https://youtu.be/QalBWXAQvok" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -119,7 +119,7 @@
             <h4 class="fechaVideo">Fecha: 23-06-2018</h4>
             <p>Desfile de tradiciones populares en las Hogueras de Alicante en el cual Aspe desfiló con las Damas de honor de la Virgen, el grupo Alboroque y la banda de música La Salvación</p>
             <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/HoguerasAlboroque2018.mp4" type="video/mp4">
+                <source src="https://youtu.be/aTIZOBzPBbY" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>

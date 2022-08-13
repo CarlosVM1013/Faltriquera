@@ -1,6 +1,6 @@
 <?php
+require_once "../model/db.php";
 
-$dir = '../videos';
 $videos = [];
 
 function is_dir_empty($dir) {
@@ -18,6 +18,27 @@ function getVideos($dir) {
     return $videos;
 }
 
+function buscarVideos() {
+    $link =Conectar::conexion();
+    $query = mysqli_query($link, 'SELECT * FROM videos ORDER BY nombre;');
+    while ($results = mysqli_fetch_array($query)) {
+        $tutorial = "class='disabled'";
+        $baile = "class='disabled'";
+        
+        $video = 
+            '<div class="video">
+                <h4>'.$results['nombre'].'</h4>
+                <div class="videosButtons">
+                    <button '.$tutorial.'>Tutorial</button>
+                    <button '.$baile.'">Baile</button>
+                </div>
+            </div>';
+
+            array_push($videos, $video);
+    }
+}
+
+/*
 foreach (scandir($dir) as $folder) {
     if (substr($folder, 0,1) != '.') {
         $titulo = file_get_contents($dir.'/'.$folder.'/titulo.txt');
@@ -52,6 +73,9 @@ foreach (scandir($dir) as $folder) {
         }
     }
 }
+*/
+
+buscarVideos();
 
 include '../view/videos.php';
 

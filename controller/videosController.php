@@ -33,10 +33,11 @@ function buscarVideos() {
                     <button '.$baile.'">Baile</button>
                 </div>
             </div>';
-            
+
         array_push($videos, $video);
     }
 
+    var_dump($videos);
     include '../view/videos.php';
 }
 

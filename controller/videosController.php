@@ -33,9 +33,11 @@ function buscarVideos() {
                     <button '.$baile.'">Baile</button>
                 </div>
             </div>';
-
-            array_push($videos, $video);
+            
+        array_push($videos, $video);
     }
+
+    include '../view/videos.php';
 }
 
 /*
@@ -76,7 +78,5 @@ foreach (scandir($dir) as $folder) {
 */
 
 buscarVideos();
-
-include '../view/videos.php';
 
 ?>

@@ -331,6 +331,8 @@ video {
 	border-radius: 5%;
 	margin: 1em 0;
 	padding: 1em;
+	width: 90%;
+	height: 50%;
 }
 
 .videoAlboroque {

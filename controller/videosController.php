@@ -1,8 +1,6 @@
 <?php
 require_once "../model/db.php";
 
-$videos = [];
-
 function is_dir_empty($dir) {
     if (!is_readable($dir)) return null; 
         return (count(scandir($dir)) == 3);
@@ -20,6 +18,9 @@ function getVideos($dir) {
 
 function buscarVideos() {
     $link =Conectar::conexion();
+    
+    $videos = [];
+    
     $query = mysqli_query($link, 'SELECT * FROM videos ORDER BY nombre;');
     while ($results = mysqli_fetch_array($query)) {
         $tutorial = "class='disabled'";

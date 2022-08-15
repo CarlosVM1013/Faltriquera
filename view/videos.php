@@ -44,24 +44,12 @@
         <h3 id="tipoVideo"></h3>
         <div class="videoDiv">
             <h4 class="tituloVideo">JotaVillena_Parte1</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Parte1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
         </div>
         <div class="videoDiv">
             <h4 class="tituloVideo">JotaVillena_Parte2</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Parte2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
         </div>
         <div class="videoDiv">
             <h4 class="tituloVideo">JotaVillena_Castañuelas</h4>
-            <video controls>
-                <source src="/videos/JotaVillena/Tutorial/JotaVillena_Castañuelas.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
         </div>
     </div>
     <div id="videos">

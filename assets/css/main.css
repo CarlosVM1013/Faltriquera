@@ -326,6 +326,13 @@ video {
 	overflow: scroll;
 }
 
+.videoDiv iframe{
+	border: 1px solid black;
+	border-radius: 5%;
+	margin: 1em 0;
+	padding: 1em;
+}
+
 .videoAlboroque {
 	display: block;
 	text-align: center;

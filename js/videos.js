@@ -5,7 +5,7 @@ function showTutorial(button, tutoriales) {
     $( "div" ).remove( ".videoDiv" );
 
     for(let tutorial of tutoriales) {
-        $("#popupVideos #tipoVideo").append('<div class="videoDiv"><iframe width="560" height="315" src="'+tutorial+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
+        $("#popupVideos #tipoVideo").append('<div class="videoDiv"><iframe src="'+tutorial+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
 
     }
 
@@ -21,7 +21,7 @@ function showBaile(button, bailes) {
     $( "div" ).remove( ".videoDiv" );
 
     for(let baile of bailes) {
-        $("#popupVideos #tipoVideo").append('<div class="videoDiv"><iframe width="560" height="315" src="'+baile+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
+        $("#popupVideos #tipoVideo").append('<div class="videoDiv"><iframe src="'+baile+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
 
     }
 

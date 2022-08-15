@@ -13,17 +13,16 @@ function buscarVideos() {
 
         /* Se busca si hay algun video del baile*/
         $query2 = mysqli_query($link, 'SELECT * FROM enlaceVideos WHERE tipoVideo = 1 and idVideos = '+$results['id']);
-
+        var_dump($query2);
         if (($query2) && ($query2->num_rows > 0)) {
             $videosBaile = mysqli_fetch_array($query2);
             $baile = "onclick='showTutorial(this, ".json_encode($videosBaile).")'";
         }
 
-        echo('SELECT * FROM enlaceVideos WHERE tipoVideo = 1 and idVideos = '+$results['id']);
-
+        
         /* Se busca si hay algun video del tutorial*/ 
         $query3 = mysqli_query($link, 'SELECT * FROM enlaceVideos WHERE tipoVideo = 2 and idVideos = '+$results['id']);
-
+        var_dump($query3);
         if (($query3) && ($query3->num_rows > 0)) {
             $videosTutorial = mysqli_fetch_array($query3);
             $tutorial = "onclick='showBaile(this, ".json_encode($videosTutorial).")'";

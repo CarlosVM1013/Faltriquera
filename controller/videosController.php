@@ -19,6 +19,8 @@ function buscarVideos() {
             $baile = "onclick='showTutorial(this, ".json_encode($videosBaile).")'";
         }
 
+        echo('SELECT * FROM enlaceVideos WHERE tipoVideo = 1 and idVideos = '+$results['id']);
+
         /* Se busca si hay algun video del tutorial*/ 
         $query3 = mysqli_query($link, 'SELECT * FROM enlaceVideos WHERE tipoVideo = 2 and idVideos = '+$results['id']);
 

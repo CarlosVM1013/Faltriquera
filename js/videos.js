@@ -44,8 +44,6 @@ function buscar() {
 
 $(document).on('click','body *',function(){
     $("#popupVideos").css("display", "none");
-    for (let i = 0; i < $("#popupVideos video").length; i++) {
-        $("#popupVideos video").get(i).pause();
-    }
+    $( "div" ).remove( ".videoDiv" );
 
 });

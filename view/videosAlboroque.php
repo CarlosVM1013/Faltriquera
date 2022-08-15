@@ -51,10 +51,7 @@
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 30-12-2018</h4>
             <p>Después de muchos años volvieron a sonar los aguinaldos por las calles y casas de nuestro pueblo de la mano del grupo Alboroque de Aspe</p>
-            <video class="videosAlboroque" controls>
-                <source src="/videosAlboroque/AguinaldoAlboroque2018.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k509R4HnxmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="videoAlboroque">

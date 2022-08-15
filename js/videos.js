@@ -5,12 +5,9 @@ function showTutorial(button, tutoriales) {
     $( "div" ).remove( ".videoDiv" );
 
     for(let tutorial of tutoriales) {
-        let titulo = tutorial.match(/Tutorial\/(.*).mp4/)[1];
-        $("#popupVideos #tipoVideo").append('<div class="videoDiv"><h4 class="tituloVideo">'+titulo+'</h4><video controls><source src="'+tutorial+'" type="video/mp4">Your browser does not support the video tag.</video></div>');
+        $("#popupVideos #tipoVideo").append('<div class="videoDiv"><iframe width="560" height="315" src="'+tutorial+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
 
     }
-
-
 
     event.stopPropagation();
 }
@@ -24,8 +21,7 @@ function showBaile(button, bailes) {
     $( "div" ).remove( ".videoDiv" );
 
     for(let baile of bailes) {
-        let titulo = baile.match(/Baile\/(.*).mp4/)[1];
-        $("#popupVideos #tipoVideo").append('<div class="videoDiv"><h4 class="tituloVideo">'+titulo+'</h4><video controls><source src="'+baile+'" type="video/mp4">Your browser does not support the video tag.</video></div>');
+        $("#popupVideos #tipoVideo").append('<div class="videoDiv"><iframe width="560" height="315" src="'+baile+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
 
     }
 

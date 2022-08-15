@@ -1,31 +1,32 @@
 <?php
 require_once "../model/db.php";
 
-function is_dir_empty($dir) {
-    if (!is_readable($dir)) return null; 
-        return (count(scandir($dir)) == 3);
-}
-
-function getVideos($dir) {
-    $videos = [];
-    foreach (scandir($dir) as $video) {
-        if (substr($video, -3) === 'mp4')
-        array_push($videos, $dir.$video);
-    }
-
-    return $videos;
-}
-
 function buscarVideos() {
     $link =Conectar::conexion();
     
     $videos = [];
-    
+
     $query = mysqli_query($link, 'SELECT * FROM videos ORDER BY nombre;');
     while ($results = mysqli_fetch_array($query)) {
         $tutorial = "class='disabled'";
         $baile = "class='disabled'";
-        
+
+        /* Se busca si hay algun video del baile*/
+        $query2 = mysqli_query($link, 'SELECT * FROM enlaceVideos WHERE tipoVideo = 1 and idVideos = '+$results['id']);
+
+        if (($query2) && ($query2->num_rows > 0)) {
+            $videosBaile = mysqli_fetch_array($query2);
+            $baile = "onclick='showTutorial(this, ".json_encode($videosBaile).")'";
+        }
+
+        /* Se busca si hay algun video del tutorial*/ 
+        $query3 = mysqli_query($link, 'SELECT * FROM enlaceVideos WHERE tipoVideo = 2 and idVideos = '+$results['id']);
+
+        if (($query3) && ($query3->num_rows > 0)) {
+            $videosTutorial = mysqli_fetch_array($query3);
+            $tutorial = "onclick='showBaile(this, ".json_encode($videosTutorial).")'";
+        }
+
         $video = 
             '<div class="video">
                 <h4>'.$results['nombre'].'</h4>

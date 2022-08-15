@@ -35,9 +35,9 @@ function buscarVideos() {
             </div>';
 
         array_push($videos, $video);
+        var_dump($video);
     }
 
-    var_dump($videos);
     include '../view/videos.php';
 }
 

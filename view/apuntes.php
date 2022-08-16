@@ -146,6 +146,16 @@
             <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
             <a href="/apuntes/Jota de Aspe.pdf" download="Jota_Aspe.pdf"><i class="fas fa-download"></i></a> 
         </div>
+        <div class="docs">
+            <h4>Jota de la Calle de la Cruz</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Jota de la Calle de la Cruz.pdf" download="Jota_Calle_Cruz.pdf"><i class="fas fa-download"></i></a> 
+        </div>
+        <div class="docs">
+            <h4>Malagueña de la Casa de los Pavos</h4>
+            <a onclick="mostrar(this)"><i class="fas fa-eye"></i></a>
+            <a href="/apuntes/Malaguenya de la Casa de los Pavos.pdf" download="Malaguenya_Casa_Pavos.pdf"><i class="fas fa-download"></i></a> 
+        </div>
     </div>
 
     <div id="footer">

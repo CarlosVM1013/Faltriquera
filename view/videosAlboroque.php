@@ -15,6 +15,14 @@
         <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
     </div>
     <div class="videoAlboroque">
+        <h2 class="tituloJota2">Serenata a la Virgen de las Nieves 2022</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 11-08-2022</h4>
+            <p>Serenata a la Virgen de las Nieves en la Basílica Nuestra Señora del Socorro de la mano del grupo Alboroque.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vm-OYC4am8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="videoAlboroque">
         <h2 class="tituloJota2">XXI Certamen Nacional de Folclore</h2>
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 31-07-2022</h4>

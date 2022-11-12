@@ -15,6 +15,22 @@
         <input type="text" id="buscador" onkeyup="buscar()" placeholder="Busca cualquier video...">   
     </div>
     <div class="videoAlboroque">
+        <h2 class="tituloJota2">Encuentro Bailes Populares Aspe 2022</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 22-10-2022</h4>
+            <p>Encuentro de bailes populares organizado por el grupo Alboroque.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ph7mazQsZoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Actos del 9 de Octubre 2022</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 09-10-2022</h4>
+            <p>Celebración del 9 de octubre, Día de la Comunidad Valenciana en Aspe con la actuación del grupo Alboroque y la interpretación del Himno Regional por el Ateneo Musical Maestro Gilabert.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QhbffTWF_JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="videoAlboroque">
         <h2 class="tituloJota2">Serenata a la Virgen de las Nieves 2022</h2>
         <div class="videoAlboroqueDiv">
             <h4 class="fechaVideo">Fecha: 11-08-2022</h4>
@@ -108,6 +124,30 @@
             <h4 class="fechaVideo">Fecha: 19-09-2017</h4>
             <p>El Grupo Alboroque a recorrido las plazas de Aspe mostrando sus bailes populares</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/9HjiQPMK34I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Orfeón Aspense Virgen de las Nieves junto al Grupo Alboroque 2012</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 30-11-2012</h4>
+            <p>Orfeón Aspense Virgen de las Nieves junto al Grupo Alboroque 2012</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E1HlDfEKiA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Actuación grupo Alboroque Aspe 2012</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 10-07-2012</h4>
+            <p>Actuación grupo Alboroque Aspe 2012</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j4FAIfPiBaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="videoAlboroque">
+        <h2 class="tituloJota2">Actuación grupo Alboroque Aspe 2011</h2>
+        <div class="videoAlboroqueDiv">
+            <h4 class="fechaVideo">Fecha: 06-07-2011</h4>
+            <p>Actuación grupo Alboroque Aspe 2011</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WISAiwxpEEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <script type="text/javascript" src="/js/videosAlboroque.js"></script>
